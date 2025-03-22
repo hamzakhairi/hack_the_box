@@ -41,7 +41,7 @@ Nmap done: 1 IP address (1 host up) scanned in 9.61 seconds
 
 **open the website** 
 we have this 
-![Image](web_page.png)
+![Image](./image/web_page.png)
 
 **we found local file inclusion**
 
@@ -49,7 +49,7 @@ we have this
 http://10.10.10.84/browse.php?file=file:///etc/passwd
 ```
 
-![Image](lfi.png)
+![Image](./image/lfi.png)
 
 and if you do 
 ```
